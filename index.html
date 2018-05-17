@@ -3,157 +3,163 @@
     <head>
             <title>newwebsite</title>
             <meta charset="utf-8">        
+
             <meta name ="viewport" content="width=device-width, initial-scale=1">
             <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <!-- Latest compiled and minified JavaScript -->
             
-    </head>
-    <body>
-        <div class="container-fluid">
-            <h1>colum layout</h1>
-            <div class="row">
-                <div class="col-md-4" style="background-color: #ff9999">left</div>
-                <div class="col-md-4" style="background-color: #99ccff">middle</div>
-                <div class="col-md-4" style="background-color: #00cc99">right</div>
+            <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            ></script>            
+            
+                        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>colum layout</h1>
+        <div class="row">
+            <div class="col-md-4" style="background-color: #ff9999">left</div>
+            <div class="col-md-4" style="background-color: #99ccff">middle</div>
+            <div class="col-md-4" style="background-color: #00cc99">right</div>
+        </div>
+        <br>
+        <p>About us : <mark>WE ARE THE ANDROID DEVELOPER</mark> let's do somthing funny on the web</p>
+
+        <blockquote>
+            <p>Hey im avinash to introduce you the web world,let's do some fun with me</p>
+            <footer>-Arcreador</footer>
+        </blockquote>
+
+        <h4>Things to do when your bored</h4>
+        <dl>
+            <dt>indoors</dt>
+                <dd>-take a nap</dd>
+                <dd>- watch a netflix for 8 hours</dd>
+            <dt>outdoor</dt>
+                <dd>- Go back inside</dd>    
+        </dl>
+
+        <p>To set the user weigth use <code>set user weigth(2935547);</code>with integer</p>
+
+        <p>for multiline code use pre tags</p>
+        <pre>
+            for an range (101);
+            if(n % 4 i 0);
+            print(n);
+        </pre>
+
+        <p>To set the user weigth use <kbd>Ctrl+Alt+Del</kbd>with integer</p>
+
+        <h4>Build in color classes</h4>
+        <p class="text-muted">text muted</p>
+        <p class="text-success">text muted</p>
+        <p class="text-danger">danger text</p>
+
+        <p class="bg-success">text muted</p>
+        <p class="bg-danger">danger text</p>
+
+        <h2>Simple Table</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>POINTER</th>
+                    </tr>
+                </thead>
+                <thead>
+                        <tr>
+                            <td>Avinash</td>
+                            <td>19</td>
+                            <td>7.08</td>
+                        </tr>  
+                        <tr>
+                                <td>harish</td>
+                                <td>19</td>
+                                <td>7.80</td>
+                            </tr>                            
+
+                            <tr>
+                                    <td>prasad</td>
+                                    <td>19</td>
+                                    <td>8.12</td>
+                                </tr>                            
+                </thead>
+            </table>
+
+            <h2>Striped Table</h2>
+            <table class="table-striped">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>POINTER</th>
+                    </tr>
+                </thead>
+                <thead>
+                        <tr>
+                            <td>Avinash</td>
+                            <td>19</td>
+                            <td>7.08</td>
+                        </tr>  
+                        <tr>
+                                <td>harish</td>
+                                <td>19</td>
+                                <td>7.80</td>
+                            </tr>                            
+
+                            <tr>
+                                    <td>prasad</td>
+                                    <td>19</td>
+                                    <td>8.12</td>
+                                </tr>                            
+                </thead>
+            </table>
+
+            <h2>Condensed Table</h2>
+            <table class="table-condensed">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>POINTER</th>
+                    </tr>
+                </thead>
+                <thead>
+                        <tr>
+                            <td>Avinash</td>
+                            <td>19</td>
+                            <td>7.08</td>
+                        </tr>  
+                        <tr>
+                                <td>harish</td>
+                                <td>19</td>
+                                <td>7.80</td>
+                            </tr>                            
+
+                            <tr>
+                                    <td>prasad</td>
+                                    <td>19</td>
+                                    <td>8.12</td>
+                                </tr>                            
+                </thead>
+            </table>
+
+            <img src="img/DSC_7437.JPG" class="img-responsive" width="630" height="230">
+            <img src="img/DSC_7437.JPG" class="img-circle" width="230" height="230">
+
+
+            <div class="embed-reponsive embed responsive-16by9">
+                <iframe class="embed-responsive-item" src="hhtp://www.youtube.com/embed/-u-j7uqUsI"></iframe>
             </div>
-            <br>
-            <p>About us : <mark>WE ARE THE ANDROID DEVELOPER</mark> let's do somthing funny on the web</p>
 
-            <blockquote>
-                <p>Hey im avinash to introduce you the web world,let's do some fun with me</p>
-                <footer>-Arcreador</footer>
-            </blockquote>
-
-            <h4>Things to do when your bored</h4>
-            <dl>
-                <dt>indoors</dt>
-                    <dd>-take a nap</dd>
-                    <dd>- watch a netflix for 8 hours</dd>
-                <dt>outdoor</dt>
-                    <dd>- Go back inside</dd>    
-            </dl>
-
-            <p>To set the user weigth use <code>set user weigth(2935547);</code>with integer</p>
-
-            <p>for multiline code use pre tags</p>
-            <pre>
-                for an range (101);
-                if(n % 4 i 0);
-                print(n);
-            </pre>
-
-            <p>To set the user weigth use <kbd>Ctrl+Alt+Del</kbd>with integer</p>
-
-            <h4>Build in color classes</h4>
-            <p class="text-muted">text muted</p>
-            <p class="text-success">text muted</p>
-            <p class="text-danger">danger text</p>
-
-            <p class="bg-success">text muted</p>
-            <p class="bg-danger">danger text</p>
-
-            <h2>Simple Table</h2>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>NAME</th>
-                            <th>AGE</th>
-                            <th>POINTER</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                            <tr>
-                                <td>Avinash</td>
-                                <td>19</td>
-                                <td>7.08</td>
-                            </tr>  
-                            <tr>
-                                    <td>harish</td>
-                                    <td>19</td>
-                                    <td>7.80</td>
-                                </tr>                            
-
-                                <tr>
-                                        <td>prasad</td>
-                                        <td>19</td>
-                                        <td>8.12</td>
-                                    </tr>                            
-                    </thead>
-                </table>
-
-                <h2>Striped Table</h2>
-                <table class="table-striped">
-                    <thead>
-                        <tr>
-                            <th>NAME</th>
-                            <th>AGE</th>
-                            <th>POINTER</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                            <tr>
-                                <td>Avinash</td>
-                                <td>19</td>
-                                <td>7.08</td>
-                            </tr>  
-                            <tr>
-                                    <td>harish</td>
-                                    <td>19</td>
-                                    <td>7.80</td>
-                                </tr>                            
-
-                                <tr>
-                                        <td>prasad</td>
-                                        <td>19</td>
-                                        <td>8.12</td>
-                                    </tr>                            
-                    </thead>
-                </table>
-
-                <h2>Condensed Table</h2>
-                <table class="table-condensed">
-                    <thead>
-                        <tr>
-                            <th>NAME</th>
-                            <th>AGE</th>
-                            <th>POINTER</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                            <tr>
-                                <td>Avinash</td>
-                                <td>19</td>
-                                <td>7.08</td>
-                            </tr>  
-                            <tr>
-                                    <td>harish</td>
-                                    <td>19</td>
-                                    <td>7.80</td>
-                                </tr>                            
-
-                                <tr>
-                                        <td>prasad</td>
-                                        <td>19</td>
-                                        <td>8.12</td>
-                                    </tr>                            
-                    </thead>
-                </table>
-
-                <img src="img/DSC_7437.JPG" class="img-responsive" width="630" height="230">
-                <img src="img/DSC_7437.JPG" class="img-circle" width="230" height="230">
-
-
-                <div class="embed-reponsive embed responsive-16by9">
-                    <iframe class="embed-responsive-item" src="hhtp://www.youtube.com/embed/-u-j7uqUsI"></iframe>
-                </div>
-
-                
+            
 
         </div>
         
